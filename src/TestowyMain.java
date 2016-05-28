@@ -3,10 +3,10 @@
  */
 public class TestowyMain {
 
-    public static void printText(){
-        System.out.println("drukowanie jakiegos tekstu");
+    private static void printText(){
+        System.out.println("drukowanie jakiegos tekstu zmienionego");
     }
-    
+
     public static void main(String args[]){
         System.out.println("testowy");
         printText();
